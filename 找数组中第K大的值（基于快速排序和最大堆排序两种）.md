@@ -170,7 +170,7 @@ def random_partition(nums, l, r):
 
 1. 基本堆排序。最大堆（ai >= 2*ai and >= 2*ai+1)，父节点值永远比子节点大，i是父节点index，2*ai就是左子。最小堆（ai <= 2*ai and <= 2*ai+1)。每次维护一个最大堆，保证正最顶上那个节点是最大值，然后把它丢到最后一个节点的位置，剩下的元素中再维护最大堆得到新的最大值的头结点，依次重复。
 
-   <img src="C:\Users\xzyun2011\github-work\study notes\11.png" style="zoom:80%;" />
+   <img src="http://github.com/xzyun2011/study-notes/raw/main/img/11.png" style="zoom:80%;" />
 
    ```python
    # heap sort 堆排序， 从最底下开始，构建最大堆（i>= 2i 和2i+1）或最小堆
@@ -281,7 +281,7 @@ def random_partition(nums, l, r):
 
 a. 递归写法
 
-![](C:\Users\xzyun2011\github-work\study notes\4131789-42be3290becf5f6c.png)
+![](http://github.com/xzyun2011/study-notes/raw/main/img/4131789-42be3290becf5f6c.png)
 
 ```python
 # 归并排序，递归写法，每次去mid把数组分成左右两部分直到不能分，然后最后实现归并比较
@@ -320,7 +320,7 @@ def merge(left, right):
 
 b. 迭代写法。貌似不太常用，了解一下。
 
-![](C:\Users\xzyun2011\github-work\study notes\4131789-ae20b2d875793547.png)
+![](http://github.com/xzyun2011/study-notes/raw/main/img/4131789-ae20b2d875793547.png)
 
 ```python
 # 非递归的归并排序
