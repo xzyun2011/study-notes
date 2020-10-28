@@ -10,7 +10,7 @@ $$
 $$
 Let $f \in \mathcal{P}$ be a convex (continuous) function. the subdifferential is denoted $\partial f$ and is defined by。例如$f(x)=|x|$在x=0处次梯度为【-1,1】
 $$
-\partial f(x)=\left\{\mathrm{v} \in \mathbb{R}^{n} | \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
+\partial f(x)=\left \{\mathrm{v} \in \mathbb{R}^{n} | \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
 $$
 ![img](https://pic3.zhimg.com/80/v2-e4e4bf7852a297809a54224ae1228dba_hd.jpg)
 
@@ -41,7 +41,7 @@ $$
 
 **莫罗包络** The Moreau envelope or Moreau-Yosida regularization ,$f_{\mu}(x)=\mathbb{R}^{n},$  $f_{\mu}(x)$ is convex.
 $$
-f_{\mu}(x)=\inf _{y}\left\{f(y)+\frac{1}{2 \mu}\|x-y\|_{2}^{2}\right\}
+f_{\mu}(x)=\inf _{y}\left \{f(y)+\frac{1}{2 \mu}\|x-y\|_{2}^{2}\right\}
 $$
 莫罗包络本质上是函数*f*的一个平滑或者正则化的形式，1、其定义域为$R^{n}$（即使函数*f*的定义域不是$R^{n}$*）2、连续可微。（即使当函数*f*不连续可微时）3、函数* $f$和$f_{\mu}(x)$最小值集合是相同的。
 
@@ -51,7 +51,7 @@ $$
 $$
 **例子$f(x)=|x|$，**
 $$
-f_{\mu}(x)=\inf _{y}\left\{|y|+\frac{1}{2 \mu}(x-y)^{2}\right\}=\left\{\begin{array}{ll}{\frac{1}{2 \mu} x^{2},} & {|x| \leq \mu} \\ {|x|-\frac{\mu}{2},} & {|x|>\mu}\end{array}\right.
+f_{\mu}(x)=\inf _{y}\left \{|y|+\frac{1}{2 \mu}(x-y)^{2}\right\}=\left \{\begin{array}{ll}{\frac{1}{2 \mu} x^{2},} & {|x| \leq \mu} \\ {|x|-\frac{\mu}{2},} & {|x|>\mu}\end{array}\right.
 $$
 ![image-20191216164351063](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216164351063.png)
 
@@ -64,7 +64,7 @@ $$
 
 Let f be a function in P, convex and lsc.
 $$
-\operatorname{prox}_{f}(\mathrm{x}):=\underset{\mathrm{y} \in \mathbb{R}^{n}}{\arg \min }\left\{\frac{1}{2}\|\mathrm{y}-\mathrm{x}\|^{2}+f(\mathrm{y})\right\}
+\operatorname{prox}_{f}(\mathrm{x}):=\underset{\mathrm{y} \in \mathbb{R}^{n}}{\arg \min }\left \{\frac{1}{2}\|\mathrm{y}-\mathrm{x}\|^{2}+f(\mathrm{y})\right\}
 $$
 The minimum is reached in yˆ(x) = yˆ such that 
 $$
