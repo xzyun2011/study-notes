@@ -10,7 +10,9 @@ $$
 $$
 Let $f \in \mathcal{P}$ be a convex (continuous) function. the subdifferential is denoted $\partial f$ and is defined by。例如$f(x)=|x|$在x=0处次梯度为【-1,1】
 $$
-\partial f(x)=\left\{\mathrm{v} \in \mathbb{R}^{n} | \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
+\begin{equation}
+\partial f(x)=\left\{\mathrm{v} \in \mathbb{R}^{n} \mid \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
+\end{equation}
 $$
 ![img](https://pic3.zhimg.com/80/v2-e4e4bf7852a297809a54224ae1228dba_hd.jpg)
 
@@ -23,11 +25,11 @@ $$
 
 * $(x \in \mathbb{R}), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|$，$\underset{x \in R}{\arg \min } f(x)$ = Soft Threshold function. 软阈值
 
-![image-20191216150551279](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216150551279.png)
+![image-20191216150551279](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215843.png)
 
 * $(x \in \mathbb{R}), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|_{0}$ where $|x|_{0}=x$ if $x \neq 0$ and $|0|_{0}=0$，$\underset{x \in R}{\arg \min } f(x)$ = Hard Thresholding function. 硬阈值
 
-![image-20191216150751538](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216150751538.png)
+![image-20191216150751538](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215850.png)
 
 #### **2.1 Moreau-Yosida regularization ** 莫罗-吉田正则化
 
@@ -53,7 +55,7 @@ $$
 $$
 f_{\mu}(x)=\inf _{y}\left\{|y|+\frac{1}{2 \mu}(x-y)^{2}\right\}=\left\{\begin{array}{ll}{\frac{1}{2 \mu} x^{2},} & {|x| \leq \mu} \\ {|x|-\frac{\mu}{2},} & {|x|>\mu}\end{array}\right.
 $$
-![image-20191216164351063](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216164351063.png)
+![image-20191216164351063](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215944.png)
 
 **近端操作可以看做是最小化函数$f_{\mu}(x)$的一个梯度步骤，步长为*λ***
 $$
