@@ -6,11 +6,9 @@
 
 关键是分而治之，找到pivot，然后分成两段（l，pivot-1）和（pivot+1，r）递归，主算法partition的作用就是，每次比pivot小的都放前面，比它大的丢后面，最后要保证pivot位置是两段的中间，左边都是比它小，右边都是比它大，分成两段后再重复此规律。
 
-<<<<<<< Updated upstream
+
 <img src="http://github.com/xzyun2011/study-notes/raw/main/img/2018031412124077.png" style="zoom:80%;" />
-=======
-<img src="2018031412124077.png" alt="2018031412124077" style="zoom:80%;" />
->>>>>>> Stashed changes
+
 
 `我们对数组 a[l ⋯ r]a[l⋯r] 做快速排序的过程是（参考《算法导论》）：`
 
@@ -174,11 +172,8 @@ def random_partition(nums, l, r):
 
 1. 基本堆排序。最大堆（ai >= 2*ai and >= 2*ai+1)，父节点值永远比子节点大，i是父节点index，2*ai就是左子。最小堆（ai <= 2*ai and <= 2*ai+1)。每次维护一个最大堆，保证正最顶上那个节点是最大值，然后把它丢到最后一个节点的位置，剩下的元素中再维护最大堆得到新的最大值的头结点，依次重复。
 
-<<<<<<< Updated upstream
    <img src="http://github.com/xzyun2011/study-notes/raw/main/img/11.png" style="zoom:80%;" />
-=======
-   <img src="11.png" alt="11" style="zoom:80%;" />
->>>>>>> Stashed changes
+
 
    ```python
    # heap sort 堆排序， 从最底下开始，构建最大堆（i>= 2i 和2i+1）或最小堆
@@ -289,11 +284,9 @@ def random_partition(nums, l, r):
 
 a. 递归写法
 
-<<<<<<< Updated upstream
+
 ![](http://github.com/xzyun2011/study-notes/raw/main/img/4131789-42be3290becf5f6c.png)
-=======
-<img src="4131789-42be3290becf5f6c.png" alt="4131789-42be3290becf5f6c" style="zoom:80%;" />
->>>>>>> Stashed changes
+
 
 ```python
 # 归并排序，递归写法，每次去mid把数组分成左右两部分直到不能分，然后最后实现归并比较
@@ -332,11 +325,9 @@ def merge(left, right):
 
 b. 迭代写法。貌似不太常用，了解一下。
 
-<<<<<<< Updated upstream
+
 ![](http://github.com/xzyun2011/study-notes/raw/main/img/4131789-ae20b2d875793547.png)
-=======
-<img src="4131789-ae20b2d875793547-1603917318638.png" alt="4131789-ae20b2d875793547" style="zoom:80%;" />
->>>>>>> Stashed changes
+
 
 ```python
 # 非递归的归并排序
