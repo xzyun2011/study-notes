@@ -1,12 +1,12 @@
 ## 拉格朗日乘子 KKT条件
 
-![image-20191216142046972](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216142046972.png)
+![image-20191216142046972](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028222127.png)
 
 深入理解拉格朗日乘子法（Lagrange Multiplier) 和KKT条件
 
 https://www.cnblogs.com/mo-wang/p/4775548.html
 
-![image-20191216142313865](C:\Users\xzyun2011\AppData\Roaming\Typora\typora-user-images\image-20191216142313865.png)
+![image-20191216142313865](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028222202.png)
 
 **Lagrange**拉格朗日函数 ，$\lambda, \nu$ lagrange 乘子，**L**是$f_{0}$ 的下界
 $$
