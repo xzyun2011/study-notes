@@ -10,9 +10,7 @@ $$
 $$
 Let $f \in \mathcal{P}$ be a convex (continuous) function. the subdifferential is denoted $\partial f$ and is defined by。例如$f(x)=|x|$在x=0处次梯度为【-1,1】
 $$
-\begin{equation}
 \partial f(x)=\left\{\mathrm{v} \in \mathbb{R}^{n} \mid \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
-\end{equation}
 $$
 ![img](https://pic3.zhimg.com/80/v2-e4e4bf7852a297809a54224ae1228dba_hd.jpg)
 
@@ -48,8 +46,10 @@ $$
 莫罗包络本质上是函数*f*的一个平滑或者正则化的形式，1、其定义域为$R^{n}$（即使函数*f*的定义域不是$R^{n}$*）2、连续可微。（即使当函数*f*不连续可微时）3、函数* $f$和$f_{\mu}(x)$最小值集合是相同的。
 
 **莫罗分解，Moreau's Decomposition**
+
+An important identity is Moreau's decomposition, which states that
 $$
-\begin{array}{l}{\text { An important identity is Moreau's decomposition, which states that }} \\ {\qquad \operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x}\end{array}
+ \operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x
 $$
 **例子$f(x)=|x|$，**
 $$
