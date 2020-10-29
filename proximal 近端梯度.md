@@ -25,7 +25,7 @@ $$
 
 ![image-20191216150551279](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215843.png)
 
-* $ (x \in \mathbb{R}), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|_{0} $ where $|x|_{0}=x$ if $x \neq 0$ and $|0|_{0}=0$，$ \underset{x \in R}{\arg \min } f(x) $ = Hard Thresholding function. 硬阈值
+* $ \\(x \in \mathbb{R}\\), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|_{0} $ where $|x|_{0}=x$ if $x \neq 0$ and $|0|_{0}=0$，$ \underset{x \in R}{\arg \min } f(x) $ = Hard Thresholding function. 硬阈值
 
 ![image-20191216150751538](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215850.png)
 
@@ -88,4 +88,4 @@ $$
 $$
 **性质**（https://zhuanlan.zhihu.com/p/37190315）：
 
-* $f (x_{1}, \ldots, x_{m} )=\sum f_{i} (x_{i} ),则 \operatorname{prox}_{f} (x_{1}, \ldots, x_{m} )=\operatorname{prox}_{f_{1}} (x_{1} ) \times \ldots \times \operatorname{prox}_{f_{m}} (x_{m} )$
+* $f (x_{1}, \ldots, x_{m} )=\sum f_{i} (x_{i} ) $,则 $ \operatorname{prox}_{f} (x_{1}, \ldots, x_{m} )=\operatorname{prox}_{f_{1}} (x_{1} ) \times \ldots \times \operatorname{prox}_{f_{m}} (x_{m} )$
