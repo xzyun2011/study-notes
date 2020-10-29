@@ -25,7 +25,7 @@ $$
 
 ![image-20191216150551279](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215843.png)
 
-* $(x \in \mathbb{R}), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|_{0}$ where $|x|_{0}=x$ if $x \neq 0$ and $|0|_{0}=0$，$\underset{x \in R}{\arg \min } f(x)$ = Hard Thresholding function. 硬阈值
+* $ (x \in \mathbb{R}), f(x)=\frac{1}{2}(x-d)^{2}+\lambda|x|_{0} $ where $|x|_{0}=x$ if $x \neq 0$ and $|0|_{0}=0$，$ \underset{x \in R}{\arg \min } f(x) $ = Hard Thresholding function. 硬阈值
 
 ![image-20191216150751538](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215850.png)
 
@@ -49,7 +49,8 @@ $$
 
 An important identity is Moreau's decomposition, which states that
 $$
- \operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x
+
+\operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x
 $$
 **例子$f(x)=|x|$，**
 $$
