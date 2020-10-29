@@ -10,7 +10,7 @@ $$
 $$
 Let $f \in \mathcal{P}$ be a convex (continuous) function. the subdifferential is denoted $\partial f$ and is defined by。例如$f(x)=|x|$在x=0处次梯度为【-1,1】
 $$
-\partial f(x)=\left\{\mathrm{v} \in \mathbb{R}^{n} \mid \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\right\}
+\partial f(x)= \\{\mathrm{v} \in \mathbb{R}^{n} \mid \forall \mathrm{y} \in \mathbb{R}^{n} \quad f(\mathrm{y}) \geq f(\mathrm{x})+\langle\mathrm{v}, \mathrm{y}-\mathrm{x}\rangle\\}
 $$
 ![img](https://pic3.zhimg.com/80/v2-e4e4bf7852a297809a54224ae1228dba_hd.jpg)
 
