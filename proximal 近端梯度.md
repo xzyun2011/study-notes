@@ -49,12 +49,13 @@ $$
 
 An important identity is Moreau's decomposition, which states that
 $$
-
-\operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x
+\operatorname{prox}_{f}(x)+\operatorname{prox}_{f^{*}}(x)=x
 $$
+
+
 **例子$f(x)=|x|$，**
 $$
-f_{\mu}(x)=\inf _{y} \lbrace |y|+\frac{1}{2 \mu}(x-y)^{2}\rbrace=\left\{\begin{array}{ll}{\frac{1}{2 \mu} x^{2},} & {|x| \leq \mu} \\ {|x|-\frac{\mu}{2},} & {|x|>\mu}\end{array}\right.
+f_{\mu}(x)=\inf _{y} \lbrace |y|+\frac{1}{2 \mu}(x-y)^{2}\rbrace= \lbrace \begin{array}{ll}{\frac{1}{2 \mu} x^{2},} & {|x| \leq \mu} \\ {|x|-\frac{\mu}{2},} & {|x|>\mu}\end{array}
 $$
 ![image-20191216164351063](https://raw.githubusercontent.com/xzyun2011/study-notes/main/img/20201028215944.png)
 
@@ -87,4 +88,4 @@ $$
 $$
 **性质**（https://zhuanlan.zhihu.com/p/37190315）：
 
-* $f\left(x_{1}, \ldots, x_{m}\right)=\sum f_{i}\left(x_{i}\right),则 \operatorname{prox}_{f}\left(x_{1}, \ldots, x_{m}\right)=\operatorname{prox}_{f_{1}}\left(x_{1}\right) \times \ldots \times \operatorname{prox}_{f_{m}}\left(x_{m}\right)$
+* $f (x_{1}, \ldots, x_{m} )=\sum f_{i} (x_{i} ),则 \operatorname{prox}_{f} (x_{1}, \ldots, x_{m} )=\operatorname{prox}_{f_{1}} (x_{1} ) \times \ldots \times \operatorname{prox}_{f_{m}} (x_{m} )$
